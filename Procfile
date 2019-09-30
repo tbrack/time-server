@@ -1,1 +1,1 @@
-web: gunicorn time-server.py
+web: gunicorn time-server:application
